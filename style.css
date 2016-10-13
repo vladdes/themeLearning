@@ -1,0 +1,96 @@
+/*
+Author: Vlad Strukelj
+*/
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+
+    color: #333333;
+
+
+}
+
+
+
+/*General layout*/
+a:link, a:visited{
+    color: #2B6FB6;
+}
+a:hover{
+    color: #00a0d2;
+}
+p{
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2%;
+
+
+
+}
+.post{
+    width: 90%;
+    margin: 10% 0;
+
+}
+
+
+/*header and footer*/
+
+.site-header{
+    border-bottom: 1px solid #333333;
+}
+
+.site-footer{
+    border-top: 1px solid #333333;
+}
+
+/*Navigation*/
+.site-nav ul{
+    margin: 12px 0;
+    padding: 0;
+
+}
+
+.site-nav ul:before, .site-nav ul:after{
+    content: "";
+    display: inline-block;
+}
+
+
+.site-nav ul li{
+    list-style-type: none;
+    float: left;
+
+
+}
+.site-footer nav ul li{
+    border-bottom: none;
+    text-decoration: none;
+    padding: 0 5px 0 0;
+    margin: 0 5px 0 0;
+    border-right: dotted 1px #bbb;
+
+}
+.site-header nav ul li a:link, .site-header nav ul li a:visited{
+    display: block;
+    padding: 5px 20px;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    text-decoration: none;
+    margin: 0 5px 0 0;
+
+}
+.site-header nav ul li a:hover{
+    background-color: #ececec;
+}
+
+
+li .current-site-link{
+    background-color: #4676ec;
+    color: white;
+}
