@@ -68,14 +68,7 @@ p{
 
 
 }
-.site-footer nav ul li{
-    border-bottom: none;
-    text-decoration: none;
-    padding: 0 5px 0 0;
-    margin: 0 5px 0 0;
-    border-right: dotted 1px #bbb;
 
-}
 .site-header nav ul li a:link, .site-header nav ul li a:visited{
     display: block;
     padding: 5px 20px;
@@ -86,13 +79,22 @@ p{
 
 }
 
-.site-header nav ul li.current-menu-item a:link, .site-header nav ul.current-menu-item li a:visited{
-    background-color: #4676ec;
-    color:  white !important;
+.site-header nav ul li.current-menu-item a:link, .site-header nav ul li.current-menu-item a:visited{
+    background-color: #006ec3;
+    color: #FFF;
 
 }
 .site-header nav ul li a:hover{
     background-color: #ececec;
 }
 
+/*footer menu*/
+.site-footer nav ul li a{
+    border-bottom: none;
+    text-decoration: none;
+    padding: 0 10px 0 0;
+    margin: 0 10px 0 0;
+    border-right: dotted 1px #bbb;
+    list-style-type: none;
 
+}
