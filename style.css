@@ -51,7 +51,7 @@ p{
 
 /*Navigation*/
 .site-nav ul{
-    margin: 12px 0;
+    margin: 22px 0;
     padding: 0;
 
 }
@@ -71,7 +71,7 @@ p{
 
 .site-header nav ul li a:link, .site-header nav ul li a:visited{
     display: block;
-    padding: 5px 20px;
+    padding: 10px 20px;
     border: 1px solid #bbb;
     border-bottom: none;
     text-decoration: none;
@@ -100,3 +100,6 @@ p{
 }
 
 /*page  layout*/
+article.page h2{
+    font-size: 3em;
+}
