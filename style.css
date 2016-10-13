@@ -85,12 +85,14 @@ p{
     margin: 0 5px 0 0;
 
 }
+
+.site-header nav ul li.current-menu-item a:link, .site-header nav ul.current-menu-item li a:visited{
+    background-color: #4676ec;
+    color:  white !important;
+
+}
 .site-header nav ul li a:hover{
     background-color: #ececec;
 }
 
 
-li .current-site-link{
-    background-color: #4676ec;
-    color: white;
-}
