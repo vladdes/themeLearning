@@ -18,7 +18,13 @@
 	<!--site-header-->
 	<header class="site-header">
 		<h1><?php bloginfo('name')?></h1>
-		<h5><?php bloginfo('description'); ?></h5>
+		<h5><?php bloginfo('description'); ?>
+            <?php if(is_page("what-we-do")){ ?>
+                - Thanks you for viewing our work.
+                <?php
+
+            } ?></h5>
+
 		<nav class="site-nav">
 			<?php
 			wp_reset_query();
