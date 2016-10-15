@@ -5,7 +5,6 @@ Author: Vlad Strukelj
 body{
     font-family: Helvetica, sans-serif;
     font-size: 14px;
-
     color: #333333;
 
 
@@ -25,11 +24,9 @@ p{
 }
 
 .container {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 2%;
-
-
 
 }
 .post{
@@ -120,4 +117,20 @@ div.title-column{
 div.content-column{
     float: right;
     width: 60%;
+}
+
+/*info box style*/
+div.info-box{
+    width: 40%;
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 20px;
+    background-color: #eee;
+}
+div.info-box h4{
+    margin-bottom: 6px;
+}
+
+div.info-box p{
+    font-size: 0.8em;
 }
