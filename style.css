@@ -101,5 +101,23 @@ p{
 
 /*page  layout*/
 article.page h2{
-    font-size: 3em;
+    font-size: 2em;
+}
+
+/*clearfix*/
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+div.title-column{
+    width: 40%;
+    float: left;
+}
+div.content-column{
+    float: right;
+    width: 60%;
 }
