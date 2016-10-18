@@ -13,7 +13,7 @@ if (have_posts()) :
         <article class="post page">
             <h2><?php the_title();?></h2>
 <!--            info-box-->
-            <div class="info-box">c
+            <div class="info-box">
                 <h4>Some title</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aliquam aperiam architecto esse,
                     facilis fuga fugiat inventore labore nesciunt odio perspiciatis quasi qui quibusdam reiciendis ullam unde! Eveniet, odio?</p>

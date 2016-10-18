@@ -31,7 +31,7 @@ p{
 }
 .post{
     width: 90%;
-    margin: 10% 0;
+    margin: 4% 0;
 
 }
 
@@ -62,7 +62,6 @@ p{
 .site-nav ul li{
     list-style-type: none;
     float: left;
-
 
 }
 
@@ -133,4 +132,24 @@ div.info-box h4{
 
 div.info-box p{
     font-size: 0.8em;
+}
+
+/*Children link*/
+.children-links{
+    font-size: 0.8em;
+    margin-bottom: 16px;
+}
+
+.children-links li{
+    margin-right: 16px;
+}
+.children-links ul{
+    display: inline;
+}
+span.parent-link{
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-size: 1.2em;
+    border-right: 2px dotted #EEEEEE;
 }
