@@ -21,3 +21,15 @@ register_nav_menus(array(
 ));
 
 
+//Get top ancestor
+function get_top_ancestor_ID(){
+
+    global $post;
+
+    if($post->post_parent){
+        $ancestor = array_reverse(get_post_ancestors($post->ID));
+        return $ancestor[0];
+    }
+
+    return $post->ID;
+}
