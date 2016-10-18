@@ -30,7 +30,7 @@ get_header();
 					if($categories){
 						foreach ($categories as $category){
 
-							$output .= $category->cat_name . $separator;
+							$output .= "<a href='". get_category_link($category)."'>". $category->cat_name . "</a>". $separator;
 						}
 						echo trim($output, $separator);
 					}
