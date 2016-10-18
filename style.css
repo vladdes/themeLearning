@@ -169,3 +169,16 @@ span.parent-link a:link, span.parent-link a:visited{
     color: #333333;
     cursor: default;
 }
+
+
+/*post styles*/
+.post h2{
+    margin-bottom: 0;
+}
+
+p.post-info{
+    font-size: 0.8em;
+}
+p.post-info a:link, p.post-info a:visited{
+    color: #aaa;
+}
